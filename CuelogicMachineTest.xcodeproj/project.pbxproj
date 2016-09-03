@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B0221691D7A8E9400E72E20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0221681D7A8E9400E72E20 /* AppDelegate.swift */; };
+		0B02216B1D7A8E9400E72E20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B02216A1D7A8E9400E72E20 /* ViewController.swift */; };
+		0B02216E1D7A8E9400E72E20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B02216C1D7A8E9400E72E20 /* Main.storyboard */; };
+		0B0221701D7A8E9400E72E20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B02216F1D7A8E9400E72E20 /* Assets.xcassets */; };
+		0B0221731D7A8E9400E72E20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B0221711D7A8E9400E72E20 /* LaunchScreen.storyboard */; };
+		0B02217E1D7A8E9400E72E20 /* CuelogicMachineTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B02217D1D7A8E9400E72E20 /* CuelogicMachineTestTests.swift */; };
+		0B0221891D7A8E9500E72E20 /* CuelogicMachineTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0221881D7A8E9500E72E20 /* CuelogicMachineTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B02217A1D7A8E9400E72E20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B02215D1D7A8E9400E72E20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B0221641D7A8E9400E72E20;
+			remoteInfo = CuelogicMachineTest;
+		};
+		0B0221851D7A8E9400E72E20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B02215D1D7A8E9400E72E20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B0221641D7A8E9400E72E20;
+			remoteInfo = CuelogicMachineTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B0221651D7A8E9400E72E20 /* CuelogicMachineTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CuelogicMachineTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B0221681D7A8E9400E72E20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0B02216A1D7A8E9400E72E20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0B02216D1D7A8E9400E72E20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B02216F1D7A8E9400E72E20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B0221721D7A8E9400E72E20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B0221741D7A8E9400E72E20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B0221791D7A8E9400E72E20 /* CuelogicMachineTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuelogicMachineTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B02217D1D7A8E9400E72E20 /* CuelogicMachineTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuelogicMachineTestTests.swift; sourceTree = "<group>"; };
+		0B02217F1D7A8E9400E72E20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B0221841D7A8E9400E72E20 /* CuelogicMachineTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuelogicMachineTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B0221881D7A8E9500E72E20 /* CuelogicMachineTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuelogicMachineTestUITests.swift; sourceTree = "<group>"; };
+		0B02218A1D7A8E9500E72E20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B0221621D7A8E9400E72E20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B0221761D7A8E9400E72E20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B0221811D7A8E9400E72E20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B02215C1D7A8E9400E72E20 = {
+			isa = PBXGroup;
+			children = (
+				0B0221671D7A8E9400E72E20 /* CuelogicMachineTest */,
+				0B02217C1D7A8E9400E72E20 /* CuelogicMachineTestTests */,
+				0B0221871D7A8E9500E72E20 /* CuelogicMachineTestUITests */,
+				0B0221661D7A8E9400E72E20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B0221661D7A8E9400E72E20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B0221651D7A8E9400E72E20 /* CuelogicMachineTest.app */,
+				0B0221791D7A8E9400E72E20 /* CuelogicMachineTestTests.xctest */,
+				0B0221841D7A8E9400E72E20 /* CuelogicMachineTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B0221671D7A8E9400E72E20 /* CuelogicMachineTest */ = {
+			isa = PBXGroup;
+			children = (
+				0B0221681D7A8E9400E72E20 /* AppDelegate.swift */,
+				0B02216A1D7A8E9400E72E20 /* ViewController.swift */,
+				0B02216C1D7A8E9400E72E20 /* Main.storyboard */,
+				0B02216F1D7A8E9400E72E20 /* Assets.xcassets */,
+				0B0221711D7A8E9400E72E20 /* LaunchScreen.storyboard */,
+				0B0221741D7A8E9400E72E20 /* Info.plist */,
+			);
+			path = CuelogicMachineTest;
+			sourceTree = "<group>";
+		};
+		0B02217C1D7A8E9400E72E20 /* CuelogicMachineTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B02217D1D7A8E9400E72E20 /* CuelogicMachineTestTests.swift */,
+				0B02217F1D7A8E9400E72E20 /* Info.plist */,
+			);
+			path = CuelogicMachineTestTests;
+			sourceTree = "<group>";
+		};
+		0B0221871D7A8E9500E72E20 /* CuelogicMachineTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0B0221881D7A8E9500E72E20 /* CuelogicMachineTestUITests.swift */,
+				0B02218A1D7A8E9500E72E20 /* Info.plist */,
+			);
+			path = CuelogicMachineTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B0221641D7A8E9400E72E20 /* CuelogicMachineTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B02218D1D7A8E9500E72E20 /* Build configuration list for PBXNativeTarget "CuelogicMachineTest" */;
+			buildPhases = (
+				0B0221611D7A8E9400E72E20 /* Sources */,
+				0B0221621D7A8E9400E72E20 /* Frameworks */,
+				0B0221631D7A8E9400E72E20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CuelogicMachineTest;
+			productName = CuelogicMachineTest;
+			productReference = 0B0221651D7A8E9400E72E20 /* CuelogicMachineTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B0221781D7A8E9400E72E20 /* CuelogicMachineTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B0221901D7A8E9500E72E20 /* Build configuration list for PBXNativeTarget "CuelogicMachineTestTests" */;
+			buildPhases = (
+				0B0221751D7A8E9400E72E20 /* Sources */,
+				0B0221761D7A8E9400E72E20 /* Frameworks */,
+				0B0221771D7A8E9400E72E20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B02217B1D7A8E9400E72E20 /* PBXTargetDependency */,
+			);
+			name = CuelogicMachineTestTests;
+			productName = CuelogicMachineTestTests;
+			productReference = 0B0221791D7A8E9400E72E20 /* CuelogicMachineTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0B0221831D7A8E9400E72E20 /* CuelogicMachineTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B0221931D7A8E9500E72E20 /* Build configuration list for PBXNativeTarget "CuelogicMachineTestUITests" */;
+			buildPhases = (
+				0B0221801D7A8E9400E72E20 /* Sources */,
+				0B0221811D7A8E9400E72E20 /* Frameworks */,
+				0B0221821D7A8E9400E72E20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B0221861D7A8E9400E72E20 /* PBXTargetDependency */,
+			);
+			name = CuelogicMachineTestUITests;
+			productName = CuelogicMachineTestUITests;
+			productReference = 0B0221841D7A8E9400E72E20 /* CuelogicMachineTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B02215D1D7A8E9400E72E20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ninad Panchbhai";
+				TargetAttributes = {
+					0B0221641D7A8E9400E72E20 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					0B0221781D7A8E9400E72E20 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 0B0221641D7A8E9400E72E20;
+					};
+					0B0221831D7A8E9400E72E20 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 0B0221641D7A8E9400E72E20;
+					};
+				};
+			};
+			buildConfigurationList = 0B0221601D7A8E9400E72E20 /* Build configuration list for PBXProject "CuelogicMachineTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B02215C1D7A8E9400E72E20;
+			productRefGroup = 0B0221661D7A8E9400E72E20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B0221641D7A8E9400E72E20 /* CuelogicMachineTest */,
+				0B0221781D7A8E9400E72E20 /* CuelogicMachineTestTests */,
+				0B0221831D7A8E9400E72E20 /* CuelogicMachineTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B0221631D7A8E9400E72E20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B0221731D7A8E9400E72E20 /* LaunchScreen.storyboard in Resources */,
+				0B0221701D7A8E9400E72E20 /* Assets.xcassets in Resources */,
+				0B02216E1D7A8E9400E72E20 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B0221771D7A8E9400E72E20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B0221821D7A8E9400E72E20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B0221611D7A8E9400E72E20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B02216B1D7A8E9400E72E20 /* ViewController.swift in Sources */,
+				0B0221691D7A8E9400E72E20 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B0221751D7A8E9400E72E20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B02217E1D7A8E9400E72E20 /* CuelogicMachineTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B0221801D7A8E9400E72E20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B0221891D7A8E9500E72E20 /* CuelogicMachineTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B02217B1D7A8E9400E72E20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B0221641D7A8E9400E72E20 /* CuelogicMachineTest */;
+			targetProxy = 0B02217A1D7A8E9400E72E20 /* PBXContainerItemProxy */;
+		};
+		0B0221861D7A8E9400E72E20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B0221641D7A8E9400E72E20 /* CuelogicMachineTest */;
+			targetProxy = 0B0221851D7A8E9400E72E20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B02216C1D7A8E9400E72E20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B02216D1D7A8E9400E72E20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B0221711D7A8E9400E72E20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B0221721D7A8E9400E72E20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B02218B1D7A8E9500E72E20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0B02218C1D7A8E9500E72E20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B02218E1D7A8E9500E72E20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CuelogicMachineTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.CuelogicMachineTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0B02218F1D7A8E9500E72E20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CuelogicMachineTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.CuelogicMachineTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0B0221911D7A8E9500E72E20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CuelogicMachineTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.CuelogicMachineTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CuelogicMachineTest.app/CuelogicMachineTest";
+			};
+			name = Debug;
+		};
+		0B0221921D7A8E9500E72E20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CuelogicMachineTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.CuelogicMachineTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CuelogicMachineTest.app/CuelogicMachineTest";
+			};
+			name = Release;
+		};
+		0B0221941D7A8E9500E72E20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CuelogicMachineTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.CuelogicMachineTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CuelogicMachineTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0B0221951D7A8E9500E72E20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CuelogicMachineTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abc.CuelogicMachineTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CuelogicMachineTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B0221601D7A8E9400E72E20 /* Build configuration list for PBXProject "CuelogicMachineTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B02218B1D7A8E9500E72E20 /* Debug */,
+				0B02218C1D7A8E9500E72E20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B02218D1D7A8E9500E72E20 /* Build configuration list for PBXNativeTarget "CuelogicMachineTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B02218E1D7A8E9500E72E20 /* Debug */,
+				0B02218F1D7A8E9500E72E20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0B0221901D7A8E9500E72E20 /* Build configuration list for PBXNativeTarget "CuelogicMachineTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B0221911D7A8E9500E72E20 /* Debug */,
+				0B0221921D7A8E9500E72E20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0B0221931D7A8E9500E72E20 /* Build configuration list for PBXNativeTarget "CuelogicMachineTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B0221941D7A8E9500E72E20 /* Debug */,
+				0B0221951D7A8E9500E72E20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B02215D1D7A8E9400E72E20 /* Project object */;
+}
