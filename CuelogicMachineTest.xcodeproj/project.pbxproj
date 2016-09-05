@@ -18,7 +18,6 @@
 		0B04D1D21D7B5F37007F97B9 /* ShopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B04D1D11D7B5F37007F97B9 /* ShopCollectionViewCell.swift */; };
 		0B7552141D7BE367001B8E3C /* ShoperDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7552131D7BE367001B8E3C /* ShoperDataModel.swift */; };
 		0B7552161D7BE381001B8E3C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7552151D7BE381001B8E3C /* Constants.swift */; };
-		0BF3720C1D7D2BBF0056DAF9 /* networkCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF3720B1D7D2BBF0056DAF9 /* networkCall.swift */; };
 		0BFE9B721D7C6CE90089C13C /* cartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFE9B711D7C6CE90089C13C /* cartTableViewCell.swift */; };
 		0BFE9B891D7C9ABF0089C13C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BFE9B881D7C9ABF0089C13C /* CoreData.framework */; };
 		FBFF7ECAC40A759185A1CF8E /* Pods_CuelogicMachineTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1C5B305D98C43495B2381E4 /* Pods_CuelogicMachineTest.framework */; };
@@ -59,7 +58,6 @@
 		0B04D1D11D7B5F37007F97B9 /* ShopCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopCollectionViewCell.swift; sourceTree = "<group>"; };
 		0B7552131D7BE367001B8E3C /* ShoperDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoperDataModel.swift; sourceTree = "<group>"; };
 		0B7552151D7BE381001B8E3C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		0BF3720B1D7D2BBF0056DAF9 /* networkCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = networkCall.swift; sourceTree = "<group>"; };
 		0BFE9B711D7C6CE90089C13C /* cartTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cartTableViewCell.swift; sourceTree = "<group>"; };
 		0BFE9B881D7C9ABF0089C13C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		98EE8AE114D49DCF4D8CDD27 /* Pods-CuelogicMachineTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CuelogicMachineTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-CuelogicMachineTest/Pods-CuelogicMachineTest.release.xcconfig"; sourceTree = "<group>"; };
@@ -148,7 +146,6 @@
 				0B7552131D7BE367001B8E3C /* ShoperDataModel.swift */,
 				0B7552151D7BE381001B8E3C /* Constants.swift */,
 				0BFE9B711D7C6CE90089C13C /* cartTableViewCell.swift */,
-				0BF3720B1D7D2BBF0056DAF9 /* networkCall.swift */,
 			);
 			path = CuelogicMachineTest;
 			sourceTree = "<group>";
@@ -355,7 +352,6 @@
 			files = (
 				0B04D1D21D7B5F37007F97B9 /* ShopCollectionViewCell.swift in Sources */,
 				0B04D1CE1D7B5E95007F97B9 /* ShopViewController.swift in Sources */,
-				0BF3720C1D7D2BBF0056DAF9 /* networkCall.swift in Sources */,
 				0B04D1D01D7B5EAD007F97B9 /* CartViewController.swift in Sources */,
 				0B0221691D7A8E9400E72E20 /* AppDelegate.swift in Sources */,
 				0B7552141D7BE367001B8E3C /* ShoperDataModel.swift in Sources */,

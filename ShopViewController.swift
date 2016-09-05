@@ -52,14 +52,14 @@ class ShopViewController: UIViewController , UICollectionViewDelegate , UICollec
         cell.layer.borderWidth = 1.0
         cell.addToCartDelegate = self
         
-        if (shopingItemsarr[indexPath.row].isAddedToCart == true)
-        {
-            cell.addToCartBtn.setTitle("Added To Cart", forState: .Normal)
-        }
-        else
-        {
-            cell.addToCartBtn.setTitle("Add To Cart", forState: .Normal)
-        }
+//        if (shopingItemsarr[indexPath.row].isAddedToCart == true)
+//        {
+//            cell.addToCartBtn.setTitle("Added To Cart", forState: .Normal)
+//        }
+//        else
+//        {
+//            cell.addToCartBtn.setTitle("Add To Cart", forState: .Normal)
+//        }
         
         return cell
     }
@@ -69,10 +69,8 @@ class ShopViewController: UIViewController , UICollectionViewDelegate , UICollec
         let url = NSURL(string: url)
         
         let task = NSURLSession.sharedSession().dataTaskWithURL(url!) {(data, response, error) in
-            print(NSString(data: data!, encoding: NSUTF8StringEncoding))
             do {
                 let jsonDict = try NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions()) as! NSDictionary
-                print(jsonDict)
                 self.parseJson(jsonDict)
             } catch {
                 print(error)

@@ -26,7 +26,6 @@ class CartViewController: UIViewController ,UITableViewDelegate, UITableViewData
         super.viewWillAppear(animated)
         for items in shopingItemsarr
         {
-            
             if (items.isAddedToCart == true)
             {
                 cartItemsArr.addObject(items)

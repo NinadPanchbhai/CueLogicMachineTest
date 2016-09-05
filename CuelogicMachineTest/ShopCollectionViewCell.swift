@@ -28,7 +28,7 @@ class ShopCollectionViewCell: UICollectionViewCell {
     
     @IBAction func addToCartBtnClick(sender: UIButton)
     {
-        sender.setTitle("Added To Cart", forState: .Normal)
+//        sender.setTitle("Added To Cart", forState: .Normal)
         addToCartDelegate?.addToCart(sender.tag)
     }
 }
