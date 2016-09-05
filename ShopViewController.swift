@@ -13,7 +13,6 @@ var shopingItemsarr = [ShoperDataModel]()
 class ShopViewController: UIViewController , UICollectionViewDelegate , UICollectionViewDataSource ,UICollectionViewDelegateFlowLayout , addToCartHandlerDelegate {
 
     @IBOutlet weak var shopCollectionView: UICollectionView!
-   
     
     
     override func viewDidLoad() {
@@ -52,14 +51,9 @@ class ShopViewController: UIViewController , UICollectionViewDelegate , UICollec
         cell.layer.borderWidth = 1.0
         cell.addToCartDelegate = self
         
-//        if (shopingItemsarr[indexPath.row].isAddedToCart == true)
-//        {
-//            cell.addToCartBtn.setTitle("Added To Cart", forState: .Normal)
-//        }
-//        else
-//        {
-//            cell.addToCartBtn.setTitle("Add To Cart", forState: .Normal)
-//        }
+        cell.addToCartBtn.backgroundColor = UIColor.clearColor()
+        cell.addToCartBtn.layer.borderWidth = 1
+        cell.addToCartBtn.layer.borderColor = UIColor.blackColor().CGColor
         
         return cell
     }
@@ -69,18 +63,24 @@ class ShopViewController: UIViewController , UICollectionViewDelegate , UICollec
         let url = NSURL(string: url)
         
         let task = NSURLSession.sharedSession().dataTaskWithURL(url!) {(data, response, error) in
+            
             do {
+                
                 let jsonDict = try NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions()) as! NSDictionary
                 self.parseJson(jsonDict)
             } catch {
                 print(error)
             }
+        
+            
         }
+        
         task.resume()
     }
     
     func parseJson(dict : NSDictionary)
     {
+        
         let productsArr = dict.objectForKey(kProductKey) as! NSArray
         
         for product in productsArr {

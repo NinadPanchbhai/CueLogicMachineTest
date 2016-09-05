@@ -15,9 +15,11 @@ class CartViewController: UIViewController ,UITableViewDelegate, UITableViewData
     @IBOutlet weak var displayTotalView: UIView!
     @IBOutlet weak var totalLabel: UILabel!
     
+    
     var cartItemsArr : NSMutableArray = NSMutableArray()
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view.
     }
     
@@ -81,6 +83,17 @@ class CartViewController: UIViewController ,UITableViewDelegate, UITableViewData
         cartTableCell?.callVendor.tag = indexPath.row
         cartTableCell?.removeFromCart.tag = indexPath.row
         cartTableCell?.cartDelegate = self
+        
+        
+        cartTableCell?.removeFromCart.backgroundColor = UIColor.clearColor()
+        cartTableCell?.removeFromCart.layer.cornerRadius = 5
+        cartTableCell?.removeFromCart.layer.borderWidth = 1
+        cartTableCell?.removeFromCart.layer.borderColor = UIColor.blackColor().CGColor
+        
+        cartTableCell?.callVendor.backgroundColor = UIColor.clearColor()
+        cartTableCell?.callVendor.layer.cornerRadius = 5
+        cartTableCell?.callVendor.layer.borderWidth = 1
+        cartTableCell?.callVendor.layer.borderColor = UIColor.blackColor().CGColor
         return cartTableCell!
     }
     func calculateAndDisplayTotal()
@@ -109,7 +122,10 @@ class CartViewController: UIViewController ,UITableViewDelegate, UITableViewData
     }
     func callVendor(cellNumber: Int) {
         
-       UIApplication.sharedApplication().openURL(NSURL(string: "tel://\(cartItemsArr[cellNumber].phoneNumber)")!)
+        let formatedNumber = cartItemsArr[cellNumber].phoneNumber!!.componentsSeparatedByCharactersInSet(NSCharacterSet.decimalDigitCharacterSet().invertedSet).joinWithSeparator("")
+        let phoneUrl = "tel://\(formatedNumber)"
+        let url:NSURL = NSURL(string: phoneUrl)!
+        UIApplication.sharedApplication().openURL(url)
     }
     /*
     // MARK: - Navigation
