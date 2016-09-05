@@ -36,7 +36,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="159"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PlaceHolderImage" translatesAutoresizingMaskIntoConstraints="NO" id="Xa3-LL-5E1">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Xa3-LL-5E1">
                                                     <rect key="frame" x="8" y="8" width="80" height="80"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="80" id="03C-md-yX1"/>
@@ -397,7 +397,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="PlaceHolderImage" width="40" height="40"/>
         <image name="cart-logo" width="26" height="24"/>
         <image name="product logo" width="20" height="20"/>
     </resources>
