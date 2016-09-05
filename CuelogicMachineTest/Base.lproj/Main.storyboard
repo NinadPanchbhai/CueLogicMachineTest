@@ -211,13 +211,13 @@
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="9Cf-yN-WSr">
                                     <size key="itemSize" width="295" height="186"/>
-                                    <size key="headerReferenceSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="jO0-a9-BBw" customClass="ShopCollectionViewCell" customModule="CuelogicMachineTest" customModuleProvider="target">
-                                        <rect key="frame" x="149" y="50" width="293" height="220"/>
+                                        <rect key="frame" x="149" y="0.0" width="293" height="220"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="293" height="220"/>
@@ -306,10 +306,6 @@
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
-                                <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="ORO-av-eUS">
-                                    <rect key="frame" x="0.0" y="0.0" width="591" height="50"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </collectionReusableView>
                                 <connections>
                                     <outlet property="dataSource" destination="cJr-TD-6yP" id="rWw-tl-5SL"/>
                                     <outlet property="delegate" destination="cJr-TD-6yP" id="Kaj-Pq-Hku"/>
