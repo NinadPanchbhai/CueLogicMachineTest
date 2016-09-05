@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		0B0221691D7A8E9400E72E20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0221681D7A8E9400E72E20 /* AppDelegate.swift */; };
-		0B02216B1D7A8E9400E72E20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B02216A1D7A8E9400E72E20 /* ViewController.swift */; };
 		0B02216E1D7A8E9400E72E20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B02216C1D7A8E9400E72E20 /* Main.storyboard */; };
 		0B0221701D7A8E9400E72E20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B02216F1D7A8E9400E72E20 /* Assets.xcassets */; };
 		0B0221731D7A8E9400E72E20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B0221711D7A8E9400E72E20 /* LaunchScreen.storyboard */; };
 		0B02217E1D7A8E9400E72E20 /* CuelogicMachineTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B02217D1D7A8E9400E72E20 /* CuelogicMachineTestTests.swift */; };
 		0B0221891D7A8E9500E72E20 /* CuelogicMachineTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0221881D7A8E9500E72E20 /* CuelogicMachineTestUITests.swift */; };
+		0B04D1CE1D7B5E95007F97B9 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B04D1CD1D7B5E95007F97B9 /* ShopViewController.swift */; };
+		0B04D1D01D7B5EAD007F97B9 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B04D1CF1D7B5EAD007F97B9 /* CartViewController.swift */; };
+		0B04D1D21D7B5F37007F97B9 /* ShopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B04D1D11D7B5F37007F97B9 /* ShopCollectionViewCell.swift */; };
+		0B7552141D7BE367001B8E3C /* ShoperDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7552131D7BE367001B8E3C /* ShoperDataModel.swift */; };
+		0B7552161D7BE381001B8E3C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7552151D7BE381001B8E3C /* Constants.swift */; };
+		0BF3720C1D7D2BBF0056DAF9 /* networkCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF3720B1D7D2BBF0056DAF9 /* networkCall.swift */; };
+		0BFE9B721D7C6CE90089C13C /* cartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFE9B711D7C6CE90089C13C /* cartTableViewCell.swift */; };
+		0BFE9B891D7C9ABF0089C13C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BFE9B881D7C9ABF0089C13C /* CoreData.framework */; };
+		FBFF7ECAC40A759185A1CF8E /* Pods_CuelogicMachineTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1C5B305D98C43495B2381E4 /* Pods_CuelogicMachineTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,6 @@
 /* Begin PBXFileReference section */
 		0B0221651D7A8E9400E72E20 /* CuelogicMachineTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CuelogicMachineTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B0221681D7A8E9400E72E20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0B02216A1D7A8E9400E72E20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0B02216D1D7A8E9400E72E20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0B02216F1D7A8E9400E72E20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B0221721D7A8E9400E72E20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,17 @@
 		0B0221841D7A8E9400E72E20 /* CuelogicMachineTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuelogicMachineTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B0221881D7A8E9500E72E20 /* CuelogicMachineTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuelogicMachineTestUITests.swift; sourceTree = "<group>"; };
 		0B02218A1D7A8E9500E72E20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B04D1CD1D7B5E95007F97B9 /* ShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShopViewController.swift; path = ../ShopViewController.swift; sourceTree = "<group>"; };
+		0B04D1CF1D7B5EAD007F97B9 /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		0B04D1D11D7B5F37007F97B9 /* ShopCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopCollectionViewCell.swift; sourceTree = "<group>"; };
+		0B7552131D7BE367001B8E3C /* ShoperDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoperDataModel.swift; sourceTree = "<group>"; };
+		0B7552151D7BE381001B8E3C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0BF3720B1D7D2BBF0056DAF9 /* networkCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = networkCall.swift; sourceTree = "<group>"; };
+		0BFE9B711D7C6CE90089C13C /* cartTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cartTableViewCell.swift; sourceTree = "<group>"; };
+		0BFE9B881D7C9ABF0089C13C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		98EE8AE114D49DCF4D8CDD27 /* Pods-CuelogicMachineTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CuelogicMachineTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-CuelogicMachineTest/Pods-CuelogicMachineTest.release.xcconfig"; sourceTree = "<group>"; };
+		A72A250AB406B06D4628F24B /* Pods-CuelogicMachineTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CuelogicMachineTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CuelogicMachineTest/Pods-CuelogicMachineTest.debug.xcconfig"; sourceTree = "<group>"; };
+		D1C5B305D98C43495B2381E4 /* Pods_CuelogicMachineTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CuelogicMachineTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BFE9B891D7C9ABF0089C13C /* CoreData.framework in Frameworks */,
+				FBFF7ECAC40A759185A1CF8E /* Pods_CuelogicMachineTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +94,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03D122BFEA315627DE112898 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A72A250AB406B06D4628F24B /* Pods-CuelogicMachineTest.debug.xcconfig */,
+				98EE8AE114D49DCF4D8CDD27 /* Pods-CuelogicMachineTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		08C7FF9820125CD66716E9E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BFE9B881D7C9ABF0089C13C /* CoreData.framework */,
+				D1C5B305D98C43495B2381E4 /* Pods_CuelogicMachineTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0B02215C1D7A8E9400E72E20 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				0B02217C1D7A8E9400E72E20 /* CuelogicMachineTestTests */,
 				0B0221871D7A8E9500E72E20 /* CuelogicMachineTestUITests */,
 				0B0221661D7A8E9400E72E20 /* Products */,
+				03D122BFEA315627DE112898 /* Pods */,
+				08C7FF9820125CD66716E9E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +138,17 @@
 			isa = PBXGroup;
 			children = (
 				0B0221681D7A8E9400E72E20 /* AppDelegate.swift */,
-				0B02216A1D7A8E9400E72E20 /* ViewController.swift */,
+				0B04D1CD1D7B5E95007F97B9 /* ShopViewController.swift */,
+				0B04D1CF1D7B5EAD007F97B9 /* CartViewController.swift */,
+				0B04D1D11D7B5F37007F97B9 /* ShopCollectionViewCell.swift */,
 				0B02216C1D7A8E9400E72E20 /* Main.storyboard */,
 				0B02216F1D7A8E9400E72E20 /* Assets.xcassets */,
 				0B0221711D7A8E9400E72E20 /* LaunchScreen.storyboard */,
 				0B0221741D7A8E9400E72E20 /* Info.plist */,
+				0B7552131D7BE367001B8E3C /* ShoperDataModel.swift */,
+				0B7552151D7BE381001B8E3C /* Constants.swift */,
+				0BFE9B711D7C6CE90089C13C /* cartTableViewCell.swift */,
+				0BF3720B1D7D2BBF0056DAF9 /* networkCall.swift */,
 			);
 			path = CuelogicMachineTest;
 			sourceTree = "<group>";
@@ -132,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B02218D1D7A8E9500E72E20 /* Build configuration list for PBXNativeTarget "CuelogicMachineTest" */;
 			buildPhases = (
+				C4D0CE88B15989A0F2EDBE99 /* Check Pods Manifest.lock */,
 				0B0221611D7A8E9400E72E20 /* Sources */,
 				0B0221621D7A8E9400E72E20 /* Frameworks */,
 				0B0221631D7A8E9400E72E20 /* Resources */,
+				184488521EB0AE00C7763C13 /* Embed Pods Frameworks */,
+				93D59FA1892A33E14061B28E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +300,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		184488521EB0AE00C7763C13 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CuelogicMachineTest/Pods-CuelogicMachineTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93D59FA1892A33E14061B28E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CuelogicMachineTest/Pods-CuelogicMachineTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4D0CE88B15989A0F2EDBE99 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0B0221611D7A8E9400E72E20 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B02216B1D7A8E9400E72E20 /* ViewController.swift in Sources */,
+				0B04D1D21D7B5F37007F97B9 /* ShopCollectionViewCell.swift in Sources */,
+				0B04D1CE1D7B5E95007F97B9 /* ShopViewController.swift in Sources */,
+				0BF3720C1D7D2BBF0056DAF9 /* networkCall.swift in Sources */,
+				0B04D1D01D7B5EAD007F97B9 /* CartViewController.swift in Sources */,
 				0B0221691D7A8E9400E72E20 /* AppDelegate.swift in Sources */,
+				0B7552141D7BE367001B8E3C /* ShoperDataModel.swift in Sources */,
+				0BFE9B721D7C6CE90089C13C /* cartTableViewCell.swift in Sources */,
+				0B7552161D7BE381001B8E3C /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +498,7 @@
 		};
 		0B02218E1D7A8E9500E72E20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A72A250AB406B06D4628F24B /* Pods-CuelogicMachineTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CuelogicMachineTest/Info.plist;
@@ -406,6 +510,7 @@
 		};
 		0B02218F1D7A8E9500E72E20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98EE8AE114D49DCF4D8CDD27 /* Pods-CuelogicMachineTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CuelogicMachineTest/Info.plist;
@@ -482,6 +587,7 @@
 				0B02218F1D7A8E9500E72E20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B0221901D7A8E9500E72E20 /* Build configuration list for PBXNativeTarget "CuelogicMachineTestTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +596,7 @@
 				0B0221921D7A8E9500E72E20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B0221931D7A8E9500E72E20 /* Build configuration list for PBXNativeTarget "CuelogicMachineTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +605,7 @@
 				0B0221951D7A8E9500E72E20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
