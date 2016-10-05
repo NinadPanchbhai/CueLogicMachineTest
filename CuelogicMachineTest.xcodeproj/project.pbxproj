@@ -54,7 +54,7 @@
 		0B0221881D7A8E9500E72E20 /* CuelogicMachineTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuelogicMachineTestUITests.swift; sourceTree = "<group>"; };
 		0B02218A1D7A8E9500E72E20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B04D1CD1D7B5E95007F97B9 /* ShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShopViewController.swift; path = ../ShopViewController.swift; sourceTree = "<group>"; };
-		0B04D1CF1D7B5EAD007F97B9 /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		0B04D1CF1D7B5EAD007F97B9 /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CartViewController.swift; path = ../CartViewController.swift; sourceTree = "<group>"; };
 		0B04D1D11D7B5F37007F97B9 /* ShopCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopCollectionViewCell.swift; sourceTree = "<group>"; };
 		0B7552131D7BE367001B8E3C /* ShoperDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoperDataModel.swift; sourceTree = "<group>"; };
 		0B7552151D7BE381001B8E3C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -101,6 +101,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		08033A3C1DA5354900D74280 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0B04D1CF1D7B5EAD007F97B9 /* CartViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		08C7FF9820125CD66716E9E6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,7 +145,7 @@
 			children = (
 				0B0221681D7A8E9400E72E20 /* AppDelegate.swift */,
 				0B04D1CD1D7B5E95007F97B9 /* ShopViewController.swift */,
-				0B04D1CF1D7B5EAD007F97B9 /* CartViewController.swift */,
+				08033A3C1DA5354900D74280 /* ViewControllers */,
 				0B04D1D11D7B5F37007F97B9 /* ShopCollectionViewCell.swift */,
 				0B02216C1D7A8E9400E72E20 /* Main.storyboard */,
 				0B02216F1D7A8E9400E72E20 /* Assets.xcassets */,

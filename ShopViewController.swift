@@ -20,7 +20,10 @@ class ShopViewController: UIViewController , UICollectionViewDelegate , UICollec
         getDataFromServer(kUrl)
         shopCollectionView.delegate = self
         shopCollectionView.dataSource = self
-        
+        let memoryCapacity = 500*1024*1024
+        let diskCapacity = 500*1024*1024
+        let urlCache = NSURLCache(memoryCapacity: memoryCapacity, diskCapacity: diskCapacity, diskPath: "myDiskPath")
+        NSURLCache.setSharedURLCache(urlCache)
         // Do any additional setup after loading the view.
     }
     override func didReceiveMemoryWarning() {
@@ -45,8 +48,31 @@ class ShopViewController: UIViewController , UICollectionViewDelegate , UICollec
         cell.vendorNameLabel.text = shopingItemsarr[indexPath.row].vendorname
         cell.vendorAddressLabel.text = shopingItemsarr[indexPath.row].vendoraddress
         cell.addToCartBtn.tag = indexPath.row
-        let URL = NSURL(string: shopingItemsarr[indexPath.row].productImg)!
-        cell.productImageView.af_setImageWithURL(URL)
+//        let URL = NSURL(string: shopingItemsarr[indexPath.row].productImg)!
+//        cell.productImageView.af_setImageWithURL(URL)
+        let url = NSURL(string: shopingItemsarr[indexPath.row].productImg)
+        let task = NSURLSession.sharedSession().dataTaskWithURL(url!) {(data, response, error) in
+            
+            do {
+                
+                if(error != nil)
+                {
+                    dispatch_async(dispatch_get_main_queue(),
+                                   {
+                        let data = NSData(contentsOfURL: url!)
+                        cell.productImageView.image = UIImage(data: data!)
+                    })
+                }
+            }
+//            catch {
+//                print(error)
+//            }
+            
+            
+        }
+        
+        task.resume()
+        
         cell.layer.borderColor = UIColor.blackColor().CGColor
         cell.layer.borderWidth = 1.0
         cell.addToCartDelegate = self
@@ -57,6 +83,7 @@ class ShopViewController: UIViewController , UICollectionViewDelegate , UICollec
         
         return cell
     }
+    
     
     func getDataFromServer  (url : String)
     {
